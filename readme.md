@@ -2,11 +2,7 @@ Dockerized -
 
 Client Built with Vue
 
-API and ran behind Containerized NGINX Reverse Proxy
-
-Aggregator Containers Connects to Twitter, Youtube, and Twitch's APIs and Aggregates Data
-into efficiently deserializable data structs to be accessed over the orchestrated docker-network as defined in docker-compose.yml by the tracker container into the Redis Cache, to be accessed on a custom API defined within the Nuxt3 Nitro Server.
-
+Aggregators Container Connects to Youtube via API and Aggregates Stats 
 # Customize
 Base URL is defined in tracker/nuxt.config.js
 
