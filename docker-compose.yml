@@ -14,7 +14,7 @@ services:
     links: 
       - redis
     environment:
-      - YOUTUBE_API_KEY=AIzaSyAuPkuxKoIu2u6sy312SBXLN_U3WgCmEQM
+      - YOUTUBE_API_KEY=
     volumes:
       - ./aggregators:/usr/src/app
     depends_on:
