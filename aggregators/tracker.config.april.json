@@ -1,0 +1,60 @@
+{
+    "talents": [
+    {
+        "ref": "desmotwainipop",
+        "name": "Desmo Twanipop",
+        "handle": "DesmoTwanipop",
+        "twitter": "DesmoTwanipop",
+        "twitch":" "
+    },
+    {
+        "ref": "milliardovt",
+        "name": "Milliardo",
+        "handle": "MilliardoVT",
+        "twitter": "MilliardoVT",
+        "twitch":" "
+    },
+    {
+        "ref": "doctorlolime",
+        "name": "Brolime",
+        "handle": "doctorlolime",
+        "twitter": "DrLolime",
+        "twitch":" "
+    },
+    {
+        "ref": "sorinsorrel",
+        "name": "Sorin Sorrel",
+        "handle": "SorinSorrel",
+        "twitter": "SorinSorrel",
+        "twitch":" "
+    },
+    {
+        "ref": "coconutblanc",
+        "name": "Coconut Blanc",
+        "handle": "Coconut_Blanc",
+        "twitter": "coconut_blanc",
+        "twitch":" "
+    },
+    {
+        "ref": "beeflannie",
+        "name": "Bee Flannie",
+        "handle": "Bee_Flan",
+        "twitter": "BeeFlavr",
+        "twitch":" "
+    },
+    {
+        "ref": "tommyitou",
+        "name": "Itou Tommy",
+        "handle": "ItouTommy",
+        "twitter": "ItouTommy",
+        "twitch":" "
+    },
+    {
+        "ref": "traubesucker",
+        "name": "Traube Sucker",
+        "handle": "Traubei",
+        "twitter": "TraubeSucker",
+        "twitch":" "
+    }
+    ]
+}

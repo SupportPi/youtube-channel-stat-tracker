@@ -1,0 +1,17 @@
+FROM node:19
+# Create app directory
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN npm install
+# Uninstalls esbuild for Windows, and Installs from Linux -- Workaround for Developing on Windows
+# I don't know what's causing this- should be installing for target environment
+# RUN ["npm", "install", "@esbuild/linux-x64"]
+# Bundle app source
+COPY . .
+# For Production
+EXPOSE 3000 
+# Dev Build
+# CMD npm run dev
+# Production Build
+RUN npm run build
+CMD node .output/server/index.mjs
